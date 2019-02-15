@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity
 
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle(String.format("%1$s", getString(R.string.about)));
-            builder.setMessage(getResources().getText(R.string.about_text));
+            builder.setMessage("AGRO Tech\n This is app design by Bhavik Vashi,Dhruv Patel,Dhruv Patel,Tanmay Jani");
             builder.setPositiveButton("OK", null);
             builder.setIcon(R.mipmap.ic_launcher);
             AlertDialog welcomeAlert = builder.create();
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity
 
         }else if(id == R.id.contactus_nav){
             Intent intent = new Intent(Intent.ACTION_SENDTO);
-            String uriText = "mailto:" + Uri.encode("akhileshnithcse@gmail.com") + "?subject=" +
+            String uriText = "mailto:" + Uri.encode("agrotechgcet123@gmail.com") + "?subject=" +
                     Uri.encode("Feedback") + "&body=" + Uri.encode("");
 
             Uri uri = Uri.parse(uriText);

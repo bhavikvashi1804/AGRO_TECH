@@ -8,14 +8,7 @@
     android:padding="10dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <ImageView
-        android:elevation="1dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:src="@drawable/sastri_final"
-        android:layout_width="55dp"
-        android:layout_height="100dp" />
+
     <ImageView
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
@@ -37,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Agricultural App"
+            android:text="AGRO Tech"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         <TextView
@@ -49,7 +42,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hackathon@HackerEarth" />
+            android:text="agrotechgcet123@gmail.com" />
     </LinearLayout>
 
 </RelativeLayout>

@@ -31,13 +31,21 @@ public class SqliteHelper extends SQLiteAssetHelper {
         Cursor cursor = db.rawQuery(selectQuery, null);
 
         list.add("Select State");
-
+/*
         if (cursor.move(3)) {
             do {
                 list.add(cursor.getString(0));
             } while (cursor.moveToNext());
-        }
-
+        }*/
+        list.add("ASSAM");
+        list.add("DELHI");
+        list.add("GUJARAT");
+        list.add("RAJASTHAN");
+        list.add("PUNJAB");
+        list.add("KERALA");
+        list.add("GOA");
+        list.add("UTTAR PRADESH");
+        list.add("MAHARASHTRA");
         return list;
     }
 
